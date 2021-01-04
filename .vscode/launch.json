@@ -7,8 +7,8 @@
             "preLaunchTask": "docker-run: debug",
             "platform": "node",
             "node": {
-                "package": "${workspaceFolder}/Hands-on lab/lab-files/node_modules/is-docker/package.json",
-                "localRoot": "${workspaceFolder}/Hands-on lab/lab-files/node_modules/is-docker"
+                "package": "${workspaceFolder}/Hands-on lab/lab-files/package.json",
+                "localRoot": "${workspaceFolder}/Hands-on lab/lab-files"
             }
         }
     ]
