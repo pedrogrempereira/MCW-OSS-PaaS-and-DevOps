@@ -1,12 +1,8 @@
 version: '3.4'
 
 services:
-  isdocker:
-    image: isdocker
+  mcwosspaasanddevops:
+    image: mcwosspaasanddevops
     build:
-      context: Hands-on lab/lab-files/node_modules/is-docker
+      context: .
       dockerfile: ./Dockerfile
-    environment:
-      NODE_ENV: production
-    ports:
-      - 3000:3000
